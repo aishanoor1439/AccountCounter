@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.mavenproject19;
 
-/**
- *
- * @author ABC
- */
 public class Mavenproject19 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        BankAccount account01 = new BankAccount("Aisha Noor", 500000);
+        BankAccount account02 = new BankAccount("Hafsa Noor", 250000);
+        BankAccount account03 = new BankAccount("Muhammad Umer", 1000000);
+        account03.totAccounts();
     }
 }
